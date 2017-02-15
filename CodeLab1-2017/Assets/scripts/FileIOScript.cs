@@ -29,8 +29,8 @@ public class FileIOScript : MonoBehaviour {
 //		sw.Close();
 
 		/*
-		 *  Read from a file
-		 * /
+		 *  Read from file
+		 */
 
 		StreamReader sr = new StreamReader(finalFilePath);
 
