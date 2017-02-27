@@ -10,7 +10,9 @@ public class ClickToScoreScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//if the mouseButton is clicked
 		if(Input.GetMouseButtonDown(0)){
+			//use the singleton to increate the score by 10
 			ScoreManagerScript.instance.Score += 10;
 		}
 	}
