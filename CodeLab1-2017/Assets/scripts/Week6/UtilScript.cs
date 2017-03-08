@@ -4,8 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using SimpleJSON;
 
+//UtilScript uses a collection of static functions
+//to make programming more convinent in Unity.
+//You can think of it as a very basic version of a
+//library, like UnityEngine or System.
 public class UtilScript : MonoBehaviour {
-
 
 	/// <summary>
 	/// Write a JSONClass to a file
